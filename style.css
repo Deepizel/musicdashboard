@@ -6,6 +6,7 @@
 
 body {
   background-color: rgb(244, 246, 248);
+  height: 100%;
   overflow-x: hidden;
 }
 
@@ -17,9 +18,9 @@ body {
 .sidebar {
   /* border-right: 1px solid grey; */
   /* margin-left: 20px; */
-  height: 100vh;
   /* box-shadow: 5px 10px 5px;
     background-color: white; */
+    
 }
 .menuli {
   display: flex;
@@ -40,8 +41,10 @@ body {
 .sdb {
   margin-top: 80px;
   margin-left: 20px;
+  position: fixed;
+  overflow-x: hidden;
 }
-/* end of ide bar styling */
+/* end of side bar styling */
 
 /* top search section */
 .topsectn {
