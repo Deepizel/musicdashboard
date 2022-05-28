@@ -81,7 +81,7 @@ body {
 .bi{
   position: absolute;
   top: 7%;
-  left: 35%;
+  left: 37%;
 }
 .account {
   display: flex;
@@ -205,6 +205,10 @@ body {
   color: rgba(242, 78, 30, 1);
 }
 
+.tinytime{
+  font-weight:400;
+  font-size: 11px;
+}
 .flextxt{
   font-size: 10px;
 }
