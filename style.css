@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/dd7e0fcaaf9a62550b7bcfa1b4f0dcd9?family=Plantagenet+Cherokee);
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,7 @@ body {
   background-color: rgb(244, 246, 248);
   height: 100%;
   overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -22,6 +25,16 @@ body {
     background-color: white; */
     
 }
+
+.logohdr{
+  position: absolute;
+  top: 4%;
+  left: 6%;
+}
+.logohdr img{
+ display: block;
+}
+
 .menuli {
   display: flex;
   cursor: pointer;
@@ -217,6 +230,9 @@ body {
   display: flex;
 }
 
+#deci{
+  font-family: 'Plantagenet Cherokee';
+}
 .decibelp{
   margin-top: 40px;
   font-size: 30px;
