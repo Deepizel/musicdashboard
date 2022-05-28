@@ -64,11 +64,12 @@ body {
   padding: 40px 0 15px 0;
 }
 .searchbar {
-  width: 250px;
+  width: 260px;
   height: 35px;
   background-color: white;
   border: none;
   justify-content: center;
+  border-radius: 10px;
 }
 
 ::placeholder {
@@ -80,7 +81,7 @@ body {
 .bi{
   position: absolute;
   top: 7%;
-  left: 33%;
+  left: 35%;
 }
 .account {
   display: flex;
@@ -288,7 +289,7 @@ body {
 }
 
 .lowercase{
-  font-size: 10px;
+  font-size: 14px;
 } 
 
 /* “When i lay down at night, my mind can’t stop running” -  Yo Gotti 
