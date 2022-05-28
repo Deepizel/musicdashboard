@@ -214,12 +214,64 @@ body {
   display: flex;
 }
 
-.decibel h1{
+.decibelp{
   margin-top: 40px;
+  font-size: 30px;
+  display: none;
 }
-.heroslider img{
+
+.decibelp1{
+  position: absolute;
+  top: 27%;
+  left: 19%;
+  display: none;
+  }
+#roc0{
   position: absolute;
   top: 9%;
-  left: 36%;
+  left: 40%;
   height: 250px;
 }
+#roc1{
+  position: absolute;
+  top: 9%;
+  left: 44%;
+  height: 250px;
+  display: none;
+}
+#roc2{
+  position: absolute;
+  top: 9%;
+  left: 45%;
+  height: 250px;
+  display: none;
+}
+#roc3{
+  position: absolute;
+  top: 9%;
+  left: 44%;
+  height: 250px;
+  display: none;
+}
+#roc4{
+  position: absolute;
+  top: 9%;
+  left: 45%;
+  height: 250px;
+  display: none;
+}
+#roc5{
+  position: absolute;
+  top: 9%;
+  left: 45%;
+  height: 250px;
+  display: none;
+}
+
+.lowercase{
+  font-size: 10px;
+} 
+
+/* “When i lay down at night, my mind can’t stop running” -  Yo Gotti 
+BillBoard
+The hardest working Label in the HipHop */
