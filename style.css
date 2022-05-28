@@ -166,22 +166,21 @@ body {
 }
 
 #vidfix {
-  height: 120px;
+  height: 150px;
   box-shadow: 4px 4px rgb(232, 233, 235);
-  position: relative;
+  /* position: relative; */
 }
 
 #mute {
   position: absolute;
-  left: 23%;
-  top: 67%;
+  left: 27%;
+  top: 94%;
 }
 
 #mute1 {
   position: absolute;
-  top: 67%;
-  left: 36%;
-  margin-left: 10px;
+  top: 94%;
+  left: 44%;
 }
 
 #playing {
