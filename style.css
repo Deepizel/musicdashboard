@@ -139,7 +139,8 @@ body {
 
 .acts1 p {
   position: absolute;
-  top: 45%;
+  top: 64%;
+  margin-left: 15px;
   color: white;
 }
 
