@@ -1,5 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/dd7e0fcaaf9a62550b7bcfa1b4f0dcd9?family=Plantagenet+Cherokee);
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +10,8 @@ body {
   background-color: rgb(244, 246, 248);
   height: 100%;
   overflow-x: hidden;
-  font-family: 'Inter', sans-serif
+  font-family: "Inter", sans-serif;
 }
-
 body::-webkit-scrollbar {
   width: 5px;
 }
@@ -25,19 +24,20 @@ body::-webkit-scrollbar-thumb {
   background-color: rgb(15, 12, 12);
   outline: 1px solid slategrey;
 }
+
 .container {
   margin: 0;
   padding: 0;
 }
 
-.logohdr{
+.logohdr {
   position: absolute;
   top: 4%;
   left: 6%;
 }
 
-.logohdr img{
- display: block;
+.logohdr img {
+  display: block;
 }
 
 .menuli {
@@ -45,12 +45,10 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
-.menuli a {
+.menuli p {
   color: antiquewhite;
-  margin-left: 15px;
-  margin-bottom: 10px;
-  text-decoration: none;
 }
+
 .menuli:hover {
   transform: scale(1);
   transition: all 1s ease-out;
@@ -61,12 +59,10 @@ body::-webkit-scrollbar-thumb {
 .menuli p {
   margin-left: 15px;
 }
-
 .sidebar {
   background-color: black;
   min-height: 100vh;
 }
-
 .sdb {
   margin-top: 80px;
   margin-left: 20px;
@@ -124,22 +120,63 @@ body::-webkit-scrollbar-thumb {
   color: black;
   font-weight: bold;
 }
+
 .link2{
   margin-top: 10px;
 }
+
 .link2 a {
   font-size: smaller;
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
+/* Album section  */
 
+.albumlistdisplay{
+  display: flex;
+}
+
+.albumlistdisplay p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 19px;
+}
+.artistwrapper li{
+  list-style: none;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+  width: 150px;
+  text-align: center;
+  font-family: "Plantagenet Cherokee";
+}
+
+span{
+  font-family: 'Inter';
+  font-size: 12px;
+  /* margin-left: 5px; */
+}
+
+.artistwrapper a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.artistwrapper a:hover{
+  transform: scale(1);
+  transition: all 1s ease-out;
+  color: rgb(243, 92, 110);
+  border-left: 3px solid rgb(243, 92, 110);
+;
+}
 /* hero section */
-.herosection{
+.herosection {
   margin-top: 20px;
   margin-left: 20px;
 }
-.herosect{
+.herosect {
   height: 200px;
   width: 550px;
   background-color: white;
@@ -165,7 +202,7 @@ body::-webkit-scrollbar-thumb {
   color: white;
 }
 
-#imagen{
+#imagen {
   position: relative;
 }
 
@@ -181,14 +218,14 @@ body::-webkit-scrollbar-thumb {
   font-size: smaller;
 }
 
-.musicbox{
- margin-left: 40px;
+.musicbox {
+  margin-left: 40px;
 }
 
-.musicbox h3{
- font-weight: 600;
- font-size: 25px;
- color: rgba(45, 44, 44, 0.9);
+.musicbox h3 {
+  font-weight: 600;
+  font-size: 25px;
+  color: rgba(45, 44, 44, 0.9);
 }
 .musicbar {
   height: 100px;
@@ -240,14 +277,14 @@ body::-webkit-scrollbar-thumb {
   color: rgba(242, 78, 30, 1);
 }
 
-.tinytime{
-  font-weight:400;
+.tinytime {
+  font-weight: 400;
   font-size: 11px;
 }
-.flextxt{
+.flextxt {
   font-size: 10px;
 }
-.flextxt span{
+.flextxt span {
   font-size: smaller;
 }
 .box {
@@ -258,68 +295,68 @@ body::-webkit-scrollbar-thumb {
   margin-left: 130px;
 }
 
-.sliderzz{
+.sliderzz {
   display: inline-block;
 }
 
-.piclist{
+.piclist {
   height: 30px;
 }
 
-.heroslider{
+.heroslider {
   display: flex;
 }
 
-#deci{
-  font-family: 'Plantagenet Cherokee';
+#deci {
+  font-family: "Plantagenet Cherokee";
 }
-.decibelp{
+.decibelp {
   margin-top: 40px;
   font-size: 30px;
   display: none;
 }
 
-.decibelp1{
+.decibelp1 {
   position: absolute;
   top: 27%;
   left: 19%;
   display: none;
-  }
-#roc0{
+}
+#roc0 {
   position: absolute;
   top: 9%;
   left: 40%;
   height: 250px;
 }
-#roc1{
+#roc1 {
   position: absolute;
   top: 9%;
   left: 44%;
   height: 250px;
   display: none;
 }
-#roc2{
+#roc2 {
   position: absolute;
   top: 9%;
   left: 45%;
   height: 250px;
   display: none;
 }
-#roc3{
+#roc3 {
   position: absolute;
   top: 9%;
   left: 44%;
   height: 250px;
   display: none;
 }
-#roc4{
+#roc4 {
   position: absolute;
   top: 9%;
   left: 45%;
   height: 250px;
   display: none;
 }
-#roc5{
+#roc5 {
   position: absolute;
   top: 9%;
   left: 45%;
@@ -327,10 +364,10 @@ body::-webkit-scrollbar-thumb {
   display: none;
 }
 
-.lowercase{
+.lowercase {
   font-size: 14px;
-} 
-.soundcard{
+}
+.soundcard {
   margin-left: 10px;
 }
 /* “When i lay down at night, my mind can’t stop running” -  Yo Gotti 

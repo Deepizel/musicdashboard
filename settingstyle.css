@@ -1,0 +1,11 @@
+@import url(//db.onlinewebfonts.com/c/dd7e0fcaaf9a62550b7bcfa1b4f0dcd9?family=Plantagenet+Cherokee);
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('cmg 2.png');
+}
