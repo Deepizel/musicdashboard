@@ -1,0 +1,8 @@
+#base{
+    position: relative;
+}
+#reup{
+    position: absolute;
+    top: 19%;
+    right: 3%;
+}
